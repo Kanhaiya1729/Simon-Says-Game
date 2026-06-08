@@ -47,7 +47,7 @@ This project demonstrates core frontend engineering principles: DOM manipulation
 
 ```
 Simon-Says-Game/
-├── simon.html
+├── index.html
 ├── simon.css
 ├── simon.js
 ├── README.md
