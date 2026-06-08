@@ -25,7 +25,7 @@ This project demonstrates core frontend engineering principles: DOM manipulation
 
 ## 🚀 Demo
 
-> 🔗 **[Live Demo — GitHub Pages](https://yourusername.github.io/simon-says/)**
+> 🔗 **[Live Demo -](https://simon-says-game-k7zd.vercel.app/)**
 
 
 ## ✨ Features
