@@ -108,7 +108,7 @@ Building this project strengthened my understanding of core frontend development
 
 ## 👤 Author
 
-**Your Name**
+**Kanhaiya Sahani**
 - GitHub: [@Kanhaiya1729](https://github.com/Kanhaiya1729)
 - LinkedIn: [kanhaiya sahani](https://www.linkedin.com/in/kanhaiya-sahani-11487b275/overlay/contact-info)
 - Portfolio: [kanhaiya](my-portfolio-chi-teal-68.vercel.app)
@@ -126,14 +126,6 @@ Contributions, issues, and feature requests are welcome.
 5. Open a Pull Request
 
 Please keep PRs focused — one feature or fix per PR makes reviews faster.
-
----
-
-## 📄 License
-
-Distributed under the MIT License. See [`LICENSE`](LICENSE) for details.
-
----
 
 <div align="center">
 
