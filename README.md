@@ -9,7 +9,7 @@
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 
-[🕹️ Play Live Demo](#-demo) · [🐛 Report Bug](../../issues) · [✨ Request Feature](../../issues)
+[🕹️ Play Live Demo](https://simon-says-game-k7zd.vercel.app/) · [🐛 Report Bug](../../issues) · [✨ Request Feature](../../issues)
 
 </div>
 
