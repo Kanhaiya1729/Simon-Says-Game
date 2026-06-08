@@ -7,7 +7,7 @@
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+
 
 [🕹️ Play Live Demo](#-demo) · [🐛 Report Bug](../../issues) · [✨ Request Feature](../../issues)
 
@@ -53,32 +53,6 @@ Simon-Says-Game/
 ├── README.md
 └── sounds/
 
----
-
-## ⚙️ Installation & Setup
-
-No build tools or package managers required.
-
-**Clone and open:**
-
-```bash
-git clone 
-cd simon-says
-```
-
-Then open `index.html` directly in your browser, or serve it locally for the best experience:
-
-```bash
-# Python 3
-python -m http.server 8080
-
-# Node.js (npx)
-npx serve .
-```
-
-Navigate to `http://localhost:8080` and press **Start** to play.
-
----
 
 ## 🕹️ How to Play
 
@@ -95,27 +69,28 @@ Navigate to `http://localhost:8080` and press **Start** to play.
 ---
 
 ## 🛠️ Technologies Used
-
-| Technology | Purpose |
-|---|---|
-| **HTML5** | Semantic game board structure |
-| **CSS3** | Grid layout, keyframe animations, CSS custom properties |
-| **Vanilla JavaScript (ES6+)** | Game engine, async sequencing, DOM events, Web Audio API |
-| **Web Audio API** | Procedural sound synthesis (no external audio files) |
-| **localStorage** | Client-side high score persistence |
-
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- DOM Manipulation
+- Event Handling
+- Audio Effects using HTML Audio API
 ---
 
 ## 🧠 Learning Outcomes
 
-Building this project deepened my understanding of several practical frontend concepts:
+Building this project strengthened my understanding of core frontend development concepts:
 
-- **Async flow control** — Chaining `setTimeout` calls and wrapping them in `Promises` to animate sequences without blocking user input at the wrong time.
-- **State machine thinking** — Managing distinct game states (`idle`, `displaying`, `awaiting-input`, `game-over`) to prevent illegal interactions (e.g., clicking during the computer's turn).
-- **Web Audio API** — Generating tones programmatically using `OscillatorNode` and `GainNode` rather than relying on audio files, keeping the project dependency-free.
-- **Event delegation** — Attaching a single listener to a parent container instead of four individual button listeners for cleaner, more scalable code.
-- **CSS animation timing** — Coordinating JavaScript-driven class toggles with CSS `transition` durations to keep visual feedback snappy and consistent.
-- **localStorage patterns** — Reading, writing, and defaulting stored values safely for a persistent high score across sessions.
+* DOM Manipulation — Dynamically updating game content, scores, and UI elements using JavaScript.
+* Event Handling — Managing user interactions through button clicks and game controls.
+* Game Logic Design — Implementing sequence generation, user input tracking, and answer validation.
+* State Management — Controlling game flow using variables such as level, game sequence, user sequence, and game status.
+* CSS Animations — Creating visual feedback through button flash effects and game-over animations.
+* Audio Integration — Enhancing user experience with sound effects using the HTML Audio API.
+* Array Operations — Using arrays to store, compare, and validate game sequences.
+* Randomization Techniques — Generating unpredictable color sequences for each level.
+* Debugging and Problem Solving — Identifying and fixing gameplay, animation, and synchronization issues during development.
+
 
 ---
 
@@ -134,9 +109,9 @@ Building this project deepened my understanding of several practical frontend co
 ## 👤 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
-- Portfolio: [yourwebsite.com](https://yourwebsite.com)
+- GitHub: [@Kanhaiya1729](https://github.com/Kanhaiya1729)
+- LinkedIn: [kanhaiya sahani](https://www.linkedin.com/in/kanhaiya-sahani-11487b275/overlay/contact-info)
+- Portfolio: [kanhaiya](my-portfolio-chi-teal-68.vercel.app)
 
 ---
 
