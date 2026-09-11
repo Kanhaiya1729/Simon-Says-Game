@@ -1,0 +1,203 @@
+/* body{
+    text-align: center;
+}
+.btn{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 10px;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+.pink{
+    background-color: pink;
+}
+.red{
+    background-color: red;
+}
+.purple{
+    background-color: purple;
+}
+.orange{
+    background-color: orange;
+}
+.gameFlash{
+    background-color: white;
+}
+.userFlash{
+    background-color: green;
+}
+ */
+
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+body {
+min-height: 100vh;
+background: linear-gradient(135deg, #1e1e2f, #302b63);
+
+font-family: Arial, sans-serif;
+text-align: center;
+
+color: white;
+
+padding-top: 40px;
+}
+
+/* Heading */
+
+h1 {
+font-size: 42px;
+margin-bottom: 10px;
+
+text-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+
+}
+
+h2 {
+font-size: 20px;
+font-weight: normal;
+
+margin-bottom: 20px;
+
+color: #dddddd;
+
+}
+
+/* Start button */
+
+#startBtn {
+padding: 12px 30px;
+
+border: none;
+border-radius: 8px;
+
+background-color: #ffffff;
+color: #222;
+
+font-size: 18px;
+font-weight: bold;
+
+cursor: pointer;
+
+transition: 0.2s;
+
+}
+
+#startBtn:hover {
+transform: scale(1.05);
+background-color: #eeeeee;
+}
+
+/* Simon buttons */
+
+.btn-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+
+
+margin-top: 30px;
+
+}
+
+.line-one,
+.line-two {
+display: flex;
+justify-content: center;
+}
+
+.btn {
+height: 180px;
+width: 180px;
+
+margin: 12px;
+
+border-radius: 25px;
+
+border: 8px solid rgba(255, 255, 255, 0.8);
+
+cursor: pointer;
+
+transition: transform 0.15s, box-shadow 0.15s;
+
+box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+
+}
+
+/* Button colors */
+
+.pink {
+background-color: #ff6fae;
+}
+
+.purple {
+background-color: #9b59b6;
+}
+
+.orange {
+background-color: #f39c12;
+}
+
+.red {
+background-color: #e74c3c;
+}
+
+/* Hover effect */
+
+.btn:hover {
+transform: scale(1.04);
+
+box-shadow: 0 12px 20px rgba(0, 0, 0, 0.4);
+
+}
+
+/* Game flash */
+
+.gameFlash {
+background-color: white !important;
+
+box-shadow: 0 0 30px white;
+}
+
+/* User click flash */
+
+.userFlash {
+background-color: #2ecc71 !important;
+
+box-shadow: 0 0 30px #2ecc71;
+
+}
+
+/* Mobile responsive */
+
+@media (max-width: 600px) {
+
+body {
+    padding-top: 25px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 17px;
+}
+
+.btn {
+    height: 130px;
+    width: 130px;
+
+    margin: 7px;
+
+    border-width: 6px;
+}
+
+}
