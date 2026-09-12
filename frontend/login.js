@@ -10,7 +10,7 @@ loginForm.addEventListener("submit", async function (event) {
 
     try {
         const response = await axios.post(
-            "https://simon-backend-olh8.onrender.com/api/login",
+            "https://simon-says-backend-02wf.onrender.com/api/login",
             {
                 email: email,
                 password: password

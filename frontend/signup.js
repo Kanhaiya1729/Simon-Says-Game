@@ -24,7 +24,7 @@ signupForm.addEventListener("submit", async function (event) {
     try {
 
         const response = await axios.post(
-            "http://localhost:3000/singup/api/signup",
+            "https://simon-says-backend-02wf.onrender.com/api/signup",
             {
                 username: username,
                 email: email,
