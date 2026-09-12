@@ -23,7 +23,7 @@ loginForm.addEventListener("submit", async function (event) {
         localStorage.setItem("token", response.data.token);
 
         setTimeout(function () {
-           window.location.href = "game.html";
+           window.location.href = "simon.html";
         }, 1000);
 
     } catch (error) {
