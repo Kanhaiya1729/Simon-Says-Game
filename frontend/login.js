@@ -10,7 +10,7 @@ loginForm.addEventListener("submit", async function (event) {
 
     try {
         const response = await axios.post(
-            "http://localhost:3000/api/login",
+            "https://simon-backend-olh8.onrender.com/api/login",
             {
                 email: email,
                 password: password
@@ -20,6 +20,7 @@ loginForm.addEventListener("submit", async function (event) {
         message.innerText = response.data.message;
 
         localStorage.setItem("username", response.data.username);
+        localStorage.setItem("token", response.data.token);
 
         setTimeout(function () {
             window.location.href = "index.html";
